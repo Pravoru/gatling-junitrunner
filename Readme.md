@@ -8,7 +8,7 @@ Gatling do not has an ability to be run as normal unit test. Gatling team has it
 
 `build.sbt`
 ```scala
-libraryDependencies += "ru.pravo" % "gatling-junitrunner" % 0.1"
+libraryDependencies += "ru.pravo" %% "gatling-junitrunner" % "0.1"
 ```
 
 ## Using
