@@ -1,7 +1,7 @@
 name := "gatling-junitrunner"
 organization := "ru.pravo"
 sonatypeProfileName := organization.value
-version := "0.1-SNAPSHOT"
+version := "0.1"
 scalaVersion := "2.11.11"
 
 libraryDependencies ++= Seq(
@@ -9,7 +9,7 @@ libraryDependencies ++= Seq(
   "junit"                 % "junit"                     % "4.12",
   "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.2.0"
 )
-
+libraryDependencies += "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.2.0"
 publishTo := Some(
   if (isSnapshot.value)
     Opts.resolver.sonatypeSnapshots
