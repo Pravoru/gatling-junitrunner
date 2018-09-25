@@ -8,7 +8,7 @@ import ru.pravo.qa.gatling.junit.JUnitRunner
 @RunWith(classOf[JUnitRunner])
 class ExampleSimulation extends Simulation {
   val httpConf = http
-    .baseURL("http://google.com")
+    .baseUrl("http://google.com")
 
   val scn = scenario("Positive Scenario")
     .exec(

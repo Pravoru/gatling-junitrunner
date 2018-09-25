@@ -8,7 +8,7 @@ Gatling do not has an ability to be run as normal unit test. Gatling team has it
 We mimic gatling versioning. For our purposes we use fourth digit in version number.
 `build.sbt`
 ```scala
-libraryDependencies += "ru.pravo" %% "gatling-junitrunner" % "2.3.0.0"
+libraryDependencies += "ru.pravo" %% "gatling-junitrunner" % "3.0.0.0-RC1"
 ```
 
 ## Using
@@ -24,7 +24,7 @@ import ru.pravo.qa.gatling.junit.JUnitRunner
 @RunWith(classOf[JUnitRunner])
 class ExampleSimulation extends Simulation {
   val httpConf = http
-    .baseURL("http://google.com")
+    .baseUrl("http://google.com")
 
   val scn = scenario("Positive Scenario")
     .exec(

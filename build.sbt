@@ -1,13 +1,13 @@
 name := "gatling-junitrunner"
 organization := "ru.pravo"
 sonatypeProfileName := organization.value
-version := "2.3.0.0"
+version := "3.0.0.0-RC1"
 scalaVersion := "2.12.3"
 
 libraryDependencies ++= Seq(
-  "io.gatling"            % "gatling-test-framework"    % "2.3.0",
+  "io.gatling"            % "gatling-test-framework"    % "3.0.0-RC1",
   "junit"                 % "junit"                     % "4.12",
-  "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.3.0"
+  "io.gatling.highcharts" % "gatling-charts-highcharts" % "3.0.0-RC1"
 )
 
 publishTo := Some(
