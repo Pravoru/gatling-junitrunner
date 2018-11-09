@@ -8,7 +8,7 @@ Gatling do not has an ability to be run as normal unit test. Gatling team has it
 We mimic gatling versioning. For our purposes we use fourth digit in version number.
 `build.sbt`
 ```scala
-libraryDependencies += "ru.pravo" %% "gatling-junitrunner" % "3.0.0.0-RC1"
+libraryDependencies += "ru.pravo" %% "gatling-junitrunner" % "3.0.0.0"
 ```
 
 ## Using
